@@ -1,0 +1,15 @@
+tei-salute {
+  color: red;
+}
+
+tei-div.letter {
+  color: blue;
+}
+
+tei-date {
+  white-space: pre;
+}
+
+tei-date:before {
+  content: "Date [" attr(when)"]: ";
+}
